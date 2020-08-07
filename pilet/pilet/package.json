@@ -1,0 +1,56 @@
+{
+  "name": "pilet-debug",
+  "version": "1.0.0",
+  "description": "",
+  "keywords": [
+    "pilet"
+  ],
+  "dependencies": {
+    "@material-ui/core": "^4.11.0"
+  },
+  "devDependencies": {
+    "@dbeining/react-atom": "4.1.8",
+    "@libre/atom": "1.3.3",
+    "@types/node": "latest",
+    "@types/react": "latest",
+    "@types/react-dom": "latest",
+    "@types/react-router": "latest",
+    "@types/react-router-dom": "latest",
+    "breadcrumbs-shell": "file:..\\breadcrumbs-shell\\dist\\develop\\breadcrumbs-shell-1.0.0.tgz",
+    "history": "4.10.1",
+    "path-to-regexp": "1.8.0",
+    "piral-cli": "^0.11.4",
+    "piral-cli-webpack": "^0.11.8",
+    "react": "16.13.1",
+    "react-dom": "16.13.1",
+    "react-router": "5.2.0",
+    "react-router-dom": "5.2.0",
+    "tslib": "1.13.0",
+    "typescript": "latest"
+  },
+  "peerDependencies": {
+    "@dbeining/react-atom": "*",
+    "@libre/atom": "*",
+    "history": "*",
+    "react": "*",
+    "react-dom": "*",
+    "react-router": "*",
+    "react-router-dom": "*",
+    "tslib": "*",
+    "path-to-regexp": "*",
+    "breadcrumbs-shell": "*"
+  },
+  "scripts": {
+    "start": "pilet debug",
+    "build": "pilet build",
+    "upgrade": "pilet upgrade"
+  },
+  "main": "dist/index.js",
+  "files": [
+    "dist"
+  ],
+  "piral": {
+    "comment": "Keep this section to use the Piral CLI.",
+    "name": "breadcrumbs-shell"
+  }
+}
